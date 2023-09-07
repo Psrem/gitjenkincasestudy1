@@ -1,5 +1,4 @@
 node{
-stages{
 stage('IntegrationTest'){
 echo 'Running Integration Test'
 }
@@ -8,6 +7,5 @@ echo 'Running API Test'
 }
 stage('E2ETest'){
 echo 'Running E2E Test'
-}
 }
 }
