@@ -1,5 +1,5 @@
 node{
-stges{
+stages{
 stage('IntegrationTest'){
 echo 'Running Integration Test'
 }
